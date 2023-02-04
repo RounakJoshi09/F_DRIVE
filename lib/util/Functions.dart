@@ -1,4 +1,5 @@
 import 'package:flutter/cupertino.dart';
+import 'package:flutter/foundation.dart';
 import 'package:google_fonts/google_fonts.dart';
 
 class Functions {
@@ -7,8 +8,14 @@ class Functions {
   }
 
   static TextStyle textStyle(
-      double fontSize, Color color, FontWeight fontWeight) {
+      {double? fontSize, Color? color, FontWeight? fontWeight}) {
     return GoogleFonts.montserrat(
         fontSize: fontSize, color: color, fontWeight: fontWeight);
+  }
+
+  static printLog(dynamic log) {
+    if (kDebugMode) {
+      print(log);
+    }
   }
 }
