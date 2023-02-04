@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "256933839156",
+    "project_id": "f-drive-2385c",
+    "storage_bucket": "f-drive-2385c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:256933839156:android:8c1ad8a7e7932afb042561",
+        "android_client_info": {
+          "package_name": "com.example.f_drive"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "256933839156-buo1pqmdnmietfombccftmmmchh179pg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBzyhQ2HZ8FqqwZETdr0hB-QR5n6IXKD1I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "256933839156-buo1pqmdnmietfombccftmmmchh179pg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
